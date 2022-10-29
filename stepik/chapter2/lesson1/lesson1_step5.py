@@ -4,8 +4,12 @@ import time
 import math
 
 link = "https://suninjuly.github.io/math.html"
+
+pattern = '\d\d\W\d+'
+
 def calc(x):
   return str(math.log(abs(12*math.sin(int(x)))))
+  
 
 try:
     browser = webdriver.Chrome()
