@@ -12,10 +12,10 @@ try:
     # Ваш код, который заполняет обязательные поля
     input1 = browser.find_element(By.CSS_SELECTOR, ".form-control[placeholder='Input your first name']")
     input1.send_keys("Ivan")
-    input1 = browser.find_element(By.CSS_SELECTOR, ".form-control[placeholder='Input your last name']")
-    input1.send_keys("Ivanov")
-    input1 = browser.find_element(By.CSS_SELECTOR, ".form-control[placeholder='Input your email']")
-    input1.send_keys("123@ivan.123")
+    input2 = browser.find_element(By.CSS_SELECTOR, ".form-control[placeholder='Input your last name']")
+    input2.send_keys("Ivanov")
+    input3 = browser.find_element(By.CSS_SELECTOR, ".form-control[placeholder='Input your email']")
+    input3.send_keys("123@ivan.123")
 
     # Отправляем заполненную форму
     button = browser.find_element(By.CSS_SELECTOR, "button.btn")
