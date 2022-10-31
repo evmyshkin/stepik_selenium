@@ -6,3 +6,5 @@
 2. Создать виртуальное окружение для проекта 
     $ python3 -m venv stepik_selenium_env
 3. Склонировать в окружение проект
+4. Установить зависимости
+    $ pip install -r requirements.txt
