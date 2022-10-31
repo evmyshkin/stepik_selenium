@@ -61,5 +61,7 @@ class TestAbs(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
-    browser.quit()
+    try:
+        unittest.main()
+    finally:
+        browser.quit()
