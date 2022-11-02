@@ -1,10 +1,13 @@
-Проект с авто-тестами с курса Stepik «Автоматизация тестирования с помощью Selenium и Python»
+# Проект с авто-тестами с курса Stepik «Автоматизация тестирования с помощью Selenium и Python»
 
-Подготовка к использованию проекта
-1. Установить python 3.6 и выше
-    https://www.python.org/downloads/
-2. Создать виртуальное окружение для проекта 
-    $ python3 -m venv stepik_selenium_env
-3. Склонировать в окружение проект
-4. Установить зависимости
-    $ pip install -r requirements.txt
+## Подготовка к использованию проекта
+1. Установить python 3.6 и выше:
+    [Python.org](https://www.python.org/downloads/)
+2. Склонировать проект в нужную папку
+    `$ git clone https://github.com/evmyshkin/stepik_selenium/`
+3. Создать виртуальное окружение python для склонированного репозитория в его директории
+    `$ python3 -m venv stepik_selenium`
+4. Активировать виртуальное окружение, указав актуальный путь по директории 
+    `$ source /Users/admin/git/stepik_selenium/bin/activate`
+5. Установить зависимости для проекта
+    `$ pip install -r requirements.txt`
