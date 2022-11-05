@@ -3,3 +3,4 @@ lib/
 pyvenv.cfg
 include/
 .pytest_cache
+geckodriver.log
