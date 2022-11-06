@@ -6,6 +6,7 @@ from selenium.webdriver.chrome.options import Options
 
 options = Options()
 
+
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default=None,
                      help="Choose language: fr, en or es")
