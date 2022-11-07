@@ -3,7 +3,7 @@
 ## Подготовка к использованию проекта в среде MacOS
 1. Установить python 3.6 и выше:[Python.org](https://www.python.org/downloads/)
 2. Склонировать проект в нужную директорию
-`$ git clone https://github.com/evmyshkin/stepik_selenium/`
+`$ git clone git@github.com:evmyshkin/stepik_selenium.git`
 3. Добавить виртуальное окружение Python в склонированный проект
 `$ python3 -m venv stepik_selenium`
 4. Активировать виртуальное окружение, указав актуальный путь
